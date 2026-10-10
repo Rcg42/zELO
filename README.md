@@ -16,4 +16,5 @@ Projeto acadêmico baseado no Challenge da Turma do Bem.
 - Contato
 
 ## link público de acesso ao projeto
+- https://github.com/Rcg42/zELO
 - https://rcg42.github.io/zELO/
