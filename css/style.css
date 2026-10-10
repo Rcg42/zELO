@@ -1,0 +1,273 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f8f6;
+    color: #06291e;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+}
+
+nav h2 {
+    margin: 5px;
+    color: #087f5b;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 5px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 4px;
+}
+
+nav li a {
+    padding: 8px 10px;
+}
+
+nav li a:hover,
+nav li a.ativo {
+    background: #dff3eb;
+    color: #087f5b;
+    border-radius: 6px;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.inicio {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.inicio h1,
+.topo h1 {
+    font-size: 42px;
+    margin: 10px 0 20px;
+    color: #07563f;
+}
+
+.inicio p {
+    font-size: 18px;
+}
+
+.destaque {
+    color: #087f5b;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 20px;
+    background: #087f5b;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #07563f;
+}
+
+.secao {
+    padding: 40px 20px;
+}
+
+.secao h2,
+.topo h1 {
+    color: #07563f;
+}
+
+.caixa{ 
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px 0;
+
+}
+.cards article,
+form,
+.faq article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px 0;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards article {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    height: 180px;
+    margin: 1%;
+    text-align: left;
+}
+
+.cards article h2,
+.cards article h3 {
+    margin-top: 0;
+}
+
+.topo {
+    padding: 55px 20px 25px;
+}
+
+.topo p {
+    font-size: 18px;
+}
+
+.duas-colunas {
+    text-align: center;
+}
+
+.duas-colunas .caixa {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+    height: 180px;
+    margin: 1%;
+    text-align: left;
+}
+
+ul,
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.aviso {
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.margem {
+    margin-top: 45px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 13px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #dff3eb;
+    color: #07563f;
+}
+
+.faq {
+    text-align: center;
+}
+
+.faq article {
+    display: inline-block;
+    vertical-align: top;
+    width: 42%;
+    height: 130px;
+    margin: 1%;
+    text-align: left;
+}
+
+.faq article h2 {
+    font-size: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 11px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+form .botao {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    background: #07563f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.integrantes article {
+    height: auto;
+    min-height: 400px;
+}
+
+.integrantes article img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.integrantes article h2 {
+    font-size: 18px;
+}
+
+.integrantes article p {
+    font-size: 14px;
+    
+}
+
+.integrantes article a {
+    color: #087f5b;
+    
+}
