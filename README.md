@@ -2,9 +2,9 @@
 
 Projeto acadêmico desenvolvido para o Challenge Turma do Bem.
 
-**Link do repositório:** [COLOQUE AQUI O LINK DO REPOSITÓRIO NO GITHUB]
+**Link do repositório:** https://github.com/Rcg42/zELO
 
-**Link para visualizar o site (GitHub Pages):** [COLOQUE AQUI O LINK DO SITE]
+**Link para visualizar o site (GitHub Pages):** https://rcg42.github.io/zELO/
 
 ## Descrição
 
