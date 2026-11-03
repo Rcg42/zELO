@@ -3,33 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> zELO  | FAQ</title>
+  <title>zELO | FAQ</title>
+  <!-- CSS e JavaScript externos -->
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/java.js" defer></script>
 </head>
 <body>
-<header>
-  <nav>
-    <h2><a href="index.html">zELO </a></h2>
-    <ul>
-      <li><a class="" href="index.html">Início</a></li>
-      <li><a class="" href="integrantes.html">Integrantes</a></li>
-      <li><a class="" href="sobre.html">Sobre</a></li>
-      <li><a class="" href="solucao.html">Solução</a></li>
-      <li><a class="" href="painel.html">Painel</a></li>
-      <li><a class="ativo" href="faq.html">FAQ</a></li>
-      <li><a class="" href="contato.html">Contato</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-<section class="topo"><h1>Perguntas frequentes</h1><p>Algumas dúvidas sobre a proposta.</p></section>
-<section class="secao faq">
-  <article><h2>Qual é o problema?</h2><p>Organizar informações de doadores, parceiros, contatos e doações.</p></article>
-  <article><h2>O que é o zELO ?</h2><p>O zELO é uma proposta de plataforma para centralizar informações, organizar doadores e parceiros e facilitar o gerenciamento de processos da organização..</p></article>
-  <article><h2>Quais informações a plataforma organiza?</h2><p>Informações de pessoas físicas, empresas, parceiros, apoiadores, contatos, interações e doações..</p></article>
-  <article><h2>A LGPD é considerada?</h2><p>Sim. A proposta considera segurança, privacidade e proteção dos dados.</p></article>
-</section>
-</main>
-<footer><p>zELO</p></footer>
+  <!-- Cabeçalho com logo e menu de navegação -->
+  <header>
+    <nav>
+      <p class="logo"><a href="index.html">zELO</a></p>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="doacoes.html">Doações</a></li>
+        <li><a href="painel.html">Painel</a></li>
+        <li><a class="ativo" href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <!-- Título da página -->
+    <section class="topo">
+      <h1>Perguntas frequentes</h1>
+      <p>Algumas dúvidas sobre a proposta.</p>
+    </section>
+
+    <!-- Perguntas e respostas (acordeão feito pelo JavaScript) -->
+    <section class="secao faq">
+      <article>
+        <h2>Como os voluntários serão reconhecidos?</h2>
+        <p>A plataforma pretende registrar os atendimentos realizados, permitir a emissão de certificados e compartilhar conquistas.</p>
+      </article>
+
+      <article>
+        <h2>O que é o zELO?</h2>
+        <p>O zELO é uma proposta de plataforma para centralizar informações, organizar doadores e parceiros e facilitar o gerenciamento de processos da organização.</p>
+      </article>
+
+      <article>
+        <h2>Quais informações a plataforma organiza?</h2>
+        <p>Informações de pessoas físicas, empresas, parceiros, apoiadores, contatos, interações e doações.</p>
+      </article>
+
+      <article>
+        <h2>Como funcionam os badges?</h2>
+        <p>Os badges reconhecem as contribuições dos doadores e ajudam a incentivar novas doações.</p>
+      </article>
+
+      <article>
+        <h2>Como funciona o cadastro no protótipo?</h2>
+        <p>Na página Cadastro, você informa nome, e-mail e o tipo (doador, voluntário ou parceiro). No protótipo, nenhum dado é enviado a um servidor.</p>
+      </article>
+
+      <article>
+        <h2>Quais são os níveis de badge?</h2>
+        <p>No protótipo, o doador ganha o badge Bronze na primeira doação, Prata ao acumular R$ 100 e Ouro ao acumular R$ 500. Você pode testar na página Doações.</p>
+      </article>
+
+      <article>
+        <h2>Os dados dos participantes ficam protegidos?</h2>
+        <p>A proposta segue a LGPD: o compartilhamento das conquistas é uma escolha de cada pessoa. No protótipo, nenhum dado é enviado a um servidor e as doações ficam salvas apenas no seu navegador.</p>
+      </article>
+
+      <article>
+        <h2>O painel mostra dados reais?</h2>
+        <p>Não. O painel é apenas um exemplo de como os indicadores poderiam ser apresentados em uma versão futura da plataforma.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>zELO - Projeto acadêmico</p>
+    <p><a href="index.html">Início</a> | <a href="sobre.html">Sobre</a> | <a href="faq.html">FAQ</a> | <a href="contato.html">Contato</a></p>
+  </footer>
 </body>
 </html>
