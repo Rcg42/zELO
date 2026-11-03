@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zELO | Cadastro</title>
+  <!-- CSS e JavaScript externos -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/java.js" defer></script>
+</head>
+<body>
+  <!-- Cabeçalho com logo e menu de navegação -->
+  <header>
+    <nav>
+      <p class="logo"><a href="index.html">zELO</a></p>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+        <li><a class="ativo" href="cadastro.html">Cadastro</a></li>
+        <li><a href="doacoes.html">Doações</a></li>
+        <li><a href="painel.html">Painel</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <!-- Título da página -->
+    <section class="topo">
+      <h1>Cadastro</h1>
+      <p>Protótipo da tela de cadastro de doadores, voluntários e parceiros.</p>
+    </section>
+
+    <!-- Texto e formulário de cadastro (validação no JavaScript) -->
+    <section class="secao duas-colunas">
+      <div>
+        <h2>Faça seu cadastro</h2>
+        <p>Informe seus dados para participar como doador, voluntário ou parceiro. Este é um protótipo: nenhum dado é enviado a um servidor.</p>
+      </div>
+      <form id="form-cadastro">
+        <label for="cad-nome">Nome</label>
+        <input id="cad-nome" type="text" placeholder="Nome da pessoa ou empresa">
+
+        <label for="cad-email">E-mail</label>
+        <input id="cad-email" type="email" placeholder="seuemail@email.com">
+
+        <label for="cad-tipo">Tipo de cadastro</label>
+        <select id="cad-tipo">
+          <option value="">Selecione...</option>
+          <option value="Doador">Doador</option>
+          <option value="Voluntário">Voluntário</option>
+          <option value="Parceiro">Parceiro</option>
+        </select>
+
+        <label for="cad-compartilha">Compartilhar minhas conquistas? (LGPD)</label>
+        <select id="cad-compartilha">
+          <option value="sim">Sim, pode compartilhar</option>
+          <option value="nao">Não, manter privado</option>
+        </select>
+
+        <button class="botao" type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>zELO - Projeto acadêmico</p>
+    <p><a href="index.html">Início</a> | <a href="sobre.html">Sobre</a> | <a href="faq.html">FAQ</a> | <a href="contato.html">Contato</a></p>
+  </footer>
+</body>
+</html>

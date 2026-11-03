@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zELO | Doações</title>
+  <!-- CSS e JavaScript externos -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/java.js" defer></script>
+</head>
+<body>
+  <!-- Cabeçalho com logo e menu de navegação -->
+  <header>
+    <nav>
+      <p class="logo"><a href="index.html">zELO</a></p>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="solucao.html">Solução</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a class="ativo" href="doacoes.html">Doações</a></li>
+        <li><a href="painel.html">Painel</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal da página -->
+  <main>
+    <!-- Título da página -->
+    <section class="topo">
+      <h1>Doações e badges</h1>
+      <p>Protótipo do registro de doações e do reconhecimento dos doadores.</p>
+    </section>
+
+    <!-- Resumo das doações (cards) -->
+    <section class="secao">
+      <div class="cards">
+        <article>
+          <h2 id="total-arrecadado">R$ 0,00</h2>
+          <p>Total arrecadado</p>
+        </article>
+        <article>
+          <h2 id="qtd-doacoes">0</h2>
+          <p>Doações registradas</p>
+        </article>
+        <article>
+          <h2 id="ultima-valor">-</h2>
+          <p id="ultima-nome">Última doação</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Formulário de doação e tabelas de badges -->
+    <section class="secao duas-colunas">
+      <form id="form-doacao">
+        <h2>Registrar doação</h2>
+
+        <label for="doa-nome">Nome do doador</label>
+        <input id="doa-nome" type="text" placeholder="Nome da pessoa ou empresa">
+
+        <label for="doa-valor">Valor (R$)</label>
+        <input id="doa-valor" type="text" placeholder="Ex.: 50,00">
+
+        <button class="botao" type="submit">Registrar doação</button>
+      </form>
+      <div>
+        <h2>Badges dos doadores</h2>
+        <table>
+          <thead>
+            <tr><th>Doador</th><th>Total</th><th>Badge</th></tr>
+          </thead>
+          <tbody id="lista-badges"></tbody>
+        </table>
+
+        <h2 class="margem">Doações registradas</h2>
+        <table>
+          <thead>
+            <tr><th>Doador</th><th>Valor</th><th>Data</th></tr>
+          </thead>
+          <tbody id="lista-doacoes"></tbody>
+        </table>
+        <button class="botao" type="button" id="limpar-doacoes">Limpar doações</button>
+      </div>
+    </section>
+
+    <!-- Explicação dos badges -->
+    <section class="secao">
+      <h2>Como funcionam os badges?</h2>
+      <p>🥉 Bronze: a partir da primeira doação. 🥈 Prata: a partir de R$ 100 acumulados. 🥇 Ouro: a partir de R$ 500 acumulados.</p>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>zELO - Projeto acadêmico</p>
+    <p><a href="index.html">Início</a> | <a href="sobre.html">Sobre</a> | <a href="faq.html">FAQ</a> | <a href="contato.html">Contato</a></p>
+  </footer>
+</body>
+</html>
